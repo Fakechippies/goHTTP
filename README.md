@@ -64,12 +64,7 @@ sudo mv gohttp /usr/bin/
 #### If installed to `/usr/bin` or globaly binary:
 
 ```bash
-# Serve current directory on default port 8000
-gohttp
-
-# Serve current directory on custom port
-gohttp 9000
-
-# Serve specific directory on custom port
-gohttp 9000 /path/to/dir
+gohttp           # Serves current dir on :8000
+gohttp 9000      # Serves current dir on :9000
+gohttp 9000 /path/to/dir  # Serves Downloads on :9000
 ```
