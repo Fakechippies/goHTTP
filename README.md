@@ -40,13 +40,15 @@ Yes, I'm aware `socat` exists — but let's not talk about *that* syntax.
 go build -o gohttp
 ```
 
-### 2. (Optional) Move it
+### 2. (Optional) Install it globally
 
 ```bash
 sudo mv gohttp /usr/bin/
 ```
 
-### 3. Run it
+### 3. Run it 
+
+#### As a local installation or binary
 
 ```bash
 # Serve current directory on default port 8000
@@ -59,7 +61,7 @@ sudo mv gohttp /usr/bin/
 ./gohttp 9000 /path/to/dir
 ```
 
-> If u moved the binary to `/usr/bin` to act a system binary, or followed the 2nd step then follow these 
+#### If installed to `/usr/bin` or globaly binary:
 
 ```bash
 # Serve current directory on default port 8000
