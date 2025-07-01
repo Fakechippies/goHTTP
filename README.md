@@ -61,7 +61,7 @@ sudo mv gohttp /usr/bin/
 ./gohttp 9000 /path/to/dir
 ```
 
-#### If installed to `/usr/bin` or globaly binary:
+#### If installed to `/usr/bin` or globally installed:
 
 ```bash
 gohttp           # Serves current dir on :8000
