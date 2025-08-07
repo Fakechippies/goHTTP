@@ -62,5 +62,5 @@ sudo mv gohttp /usr/bin/
 ```bash
 gohttp           # Serves current dir on :8000
 gohttp 9000      # Serves current dir on :9000
-gohttp 9000 /path/to/dir  # Serves Downloads on :9000
+gohttp 9000 /path/to/dir  # Serves dir on :9000
 ```
